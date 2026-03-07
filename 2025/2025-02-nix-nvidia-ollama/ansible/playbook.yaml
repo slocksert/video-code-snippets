@@ -1,5 +1,5 @@
 ---
   - hosts: nix-llm
     roles:
-      - role: ironicbadger.docker-compose-generator
+      - role: ansible-role-docker-compose-generator
         tags: compose
